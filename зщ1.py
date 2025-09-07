@@ -1,6 +1,6 @@
 import shlex
 
-commands = ["ls", "cd", "exit"] #комманды
+commands = ["ls", "cd", "exit"] #коммандыы
 
 while True:
     command_line = input("VFS> ")
