@@ -10,6 +10,7 @@ while True:
         continue
     if not user_input:
         continue
+
     cmd = user_input[0]
     args = user_input[1:]
     if cmd not in commands:
