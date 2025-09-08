@@ -2,7 +2,7 @@ import shlex
 
 commands = ["ls", "cd", "exit"]
 while True:
-    command_line = input("VFS> ")
+    command_line = input("<VFS> ")
     try:
         user_input = shlex.split(command_line)
     except ValueError as err:
