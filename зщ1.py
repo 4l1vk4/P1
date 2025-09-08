@@ -16,9 +16,9 @@ while True:
         print(f"Неизвестная команда: {cmd}")
         continue
     if cmd == "ls":
-        print()
+        continue
     elif cmd == "cd":
-        print()
+        continue
     elif cmd == "exit":
-        print("Выход из эмулятора.")
+        print("Завершение")
         break
